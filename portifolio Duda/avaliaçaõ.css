@@ -1,0 +1,151 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.principal1 {
+    background-color: darkgray;
+    list-style-type: mone;
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    height: 40%;
+}
+.principal1 img{
+    width: 5vw;
+    height: 5vh;
+}
+.principal1 ul {
+   list-style-type: none;
+   display: flex;
+   color: white;
+   width: 100%;
+   height: 40%;
+}
+
+.principal2 ul{
+    background-color: rgb(31, 31, 136);
+    color: white;
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    height: 40%;  
+}
+.principal2 img{
+    width: 15vw;
+    height: 12vh;   
+}
+
+.ícones{
+background-color: gainsboro;
+justify-content: center;
+display: flex;
+width: 100%;
+flex-wrap: wrap;
+}
+.ver {
+background-color: #AF3636;
+color: azure;
+list-style-type: none;
+display: flex;
+text-align: center;
+width: 200px;
+height: 270px;
+text-align: center;
+gap: 20px;
+}
+.lar {
+background-color: #ff5c00;
+color: azure;
+list-style-type: none;
+display: flex;
+text-align: center;
+width: 200px;
+height: 270px;
+text-align: center;
+}
+.ama {
+ background-color: #A37F00;  
+ color: azure; 
+ list-style-type: none;
+display: flex;
+text-align: center;
+width: 200px;
+height: 270px;
+
+}
+.mar {
+background-color: #481e00; 
+color: azure; 
+list-style-type: none;
+display: flex;
+text-align: center;
+width: 200px;
+height: 270px;
+}
+
+.ícones2{ 
+    background-color: gainsboro;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;   
+}
+.azu {
+ background-color: #067fae;   
+ color: azure;
+ list-style-type: none;
+display: flex;
+text-align: center;
+width: 200px;
+height: 270px;
+
+}
+.de {
+ background-color: #005C04;
+ color: azure;   
+ list-style-type: none;
+ display: flex;
+ text-align: center;
+ width: 200px;
+ height: 270px;
+
+}
+.rox {
+  background-color: #6C4F89; 
+  color: azure;
+  list-style-type: none;
+display: flex;
+text-align: center;
+width: 200px;
+height: 270px;
+
+}
+.esc {
+  background-color: #2400fe;  
+  color: azure;
+  list-style-type: none;
+display: flex;
+text-align: center;
+width: 200px;
+height: 270px;
+
+}
+
+.boxesDiv{
+    min-width: 300px;
+    min-height: 500px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.boxesDiv img{
+    width: 250px;
+    height: 400px;
+    object-fit: contain;
+}
